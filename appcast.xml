@@ -1,0 +1,26 @@
+
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Sparkle Test</title>
+        <link>https://sparkletest.com</link>
+        <description>An appcast</description>
+        <language>en</language>
+
+<item>
+    <title>Version 1.0.0</title>
+    <link>https://sparkletest.com</link>
+    <sparkle:version>1000</sparkle:version>
+    <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>26.0.1</sparkle:minimumSystemVersion>
+    <description>
+<![CDATA[
+<p>Sparkle Test 2</p>
+]]>
+    </description>
+    <pubDate>Mon, 10 Nov 2025 17:18:46 +0000</pubDate>
+    <enclosure url="https://sparkletest.com" type="application/octet-stream" sparkle:edSignature="SIXKM3aeGkiDEDwybwvJOOGPo1Gz8bGg9f+1T6W7wIvtLSdEKTmGGdSVbRIAZiy78CQbWxJB1ggkvae0/pvRCQ==" length="36232633" />
+</item>
+
+    </channel>
+</rss>
+
