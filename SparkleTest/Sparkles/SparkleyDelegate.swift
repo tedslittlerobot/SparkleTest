@@ -12,13 +12,12 @@ class SparkleyDelegate: NSObject, SPUUpdaterDelegate {
 
     func feedURLString(for updater: SPUUpdater) -> String? {
         print("feedURLString")
-//        dump(updater)
         return nil
     }
 
     func updater(_ updater: SPUUpdater, willDownloadUpdate item: SUAppcastItem, with request: NSMutableURLRequest) {
         print("willDownloadUpdate")
         print(updater)
+        fatalError("this should happen")
     }
-
 }
