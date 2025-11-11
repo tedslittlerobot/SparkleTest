@@ -9,7 +9,6 @@ import Foundation
 import Sparkle
 
 class SparkleyDelegate: NSObject, SPUUpdaterDelegate {
-
     func feedURLString(for updater: SPUUpdater) -> String? {
         print("feedURLString")
         return nil
@@ -17,7 +16,26 @@ class SparkleyDelegate: NSObject, SPUUpdaterDelegate {
 
     func updater(_ updater: SPUUpdater, willDownloadUpdate item: SUAppcastItem, with request: NSMutableURLRequest) {
         print("willDownloadUpdate")
-        print(updater)
         fatalError("this should happen")
+    }
+
+    func updater(_ updater: SPUUpdater, failedToDownloadUpdate item: SUAppcastItem, error: any Error) {
+        print("failedToDownloadUpdate")
+    }
+
+    func updater(_ updater: SPUUpdater, mayPerform updateCheck: SPUUpdateCheck) throws {
+        print("mayPerformUpdateCheck")
+    }
+
+    func allowedChannels(for updater: SPUUpdater) -> Set<String> {
+        []
+    }
+
+    func updater(_ updater: SPUUpdater, didFinishLoading appcast: SUAppcast) {
+        print("didFinishLoadingAppcast")
+    }
+
+    func updater(_ updater: SPUUpdater, didFindValidUpdate item: SUAppcastItem) {
+        print("didFindValidUpdate")
     }
 }

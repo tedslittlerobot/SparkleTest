@@ -18,7 +18,7 @@
 ]]>
     </description>
     <pubDate>Mon, 10 Nov 2025 17:18:46 +0000</pubDate>
-    <enclosure url="https://sparkletest.com" type="application/octet-stream" sparkle:edSignature="SIXKM3aeGkiDEDwybwvJOOGPo1Gz8bGg9f+1T6W7wIvtLSdEKTmGGdSVbRIAZiy78CQbWxJB1ggkvae0/pvRCQ==" length="36232633" />
+    <enclosure url="https://raw.githubusercontent.com/tedslittlerobot/SparkleTest/refs/heads/main/appcast.zip" type="application/octet-stream" />
 </item>
 
     </channel>
