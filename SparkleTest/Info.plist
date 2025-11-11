@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/tedslittlerobot/SparkleTest/refs/heads/main/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/tedslittlerobot/SparkleTest/db57589dbb90161126b4fd115bf7d032d69f711d/appcast.xml</string>
 </dict>
 </plist>

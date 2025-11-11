@@ -13,7 +13,11 @@ struct SparkleTestApp: App {
     let controller: SPUStandardUpdaterController
 
     init() {
-        controller = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: SparkleyDelegate(), userDriverDelegate: nil)
+        controller = SPUStandardUpdaterController(
+            startingUpdater: true,
+            updaterDelegate: SparkleyDelegate(),
+            userDriverDelegate: nil,
+        )
     }
 
     var body: some Scene {
@@ -22,6 +26,7 @@ struct SparkleTestApp: App {
         }.commands {
             CommandGroup(after: .appInfo) {
                 Button("Check for Updates…", action: controller.updater.checkForUpdates)
+                    .keyboardShortcut("u", modifiers: .command)
             }
         }
     }
